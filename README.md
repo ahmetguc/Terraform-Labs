@@ -1,8 +1,5 @@
 # Terraform-Labs
 
-# Terraform-Labs
-
-
 GitHub Terraform Notes
 
 Lab 1 – Install and Configure Terraform with AWS Provider:
