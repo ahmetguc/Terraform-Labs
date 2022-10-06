@@ -11,10 +11,6 @@ resource "aws_s3_bucket_acl" "example_bucket_acl" {
   bucket = aws_s3_bucket.my-bucket.id
   acl    = "private"
 }
-
-
-
-
 resource "aws_s3_bucket_object" "my-bucket-object" {
     bucket = aws_s3_bucket.my-bucket.id
     acl = "public-read"
@@ -24,6 +20,6 @@ resource "aws_s3_bucket_object" "my-bucket-object" {
 tags = {
     Name    = "My S3 bucket file"
     Environment = "Dev"
-    etag =  filemd5("/Users/ahmetemreguc/Terraform-Labs/terraform-test/data/index.html")
+    etag =  filemd5("/Users/ahmetemreguc/Terraform-Labs/terraform-multiple/data/index.html")
 }
 }

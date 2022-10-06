@@ -38,6 +38,7 @@ resource "aws_s3_bucket_object" "my-bucket-object" {
 tags = {
     Name    = "My S3 bucket file"
     Environment = "Dev"
-    etag =  filemd5("/Users/ahmetemreguc/Terraform-Labs/terraform-test/data/index.html")
+    etag =  filemd5("/Users/ahmetemreguc/Terraform-Labs/terraform-s3-demo/data/index.html")
+    
 }
 }
