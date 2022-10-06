@@ -2,7 +2,7 @@
 
 Terraform Notes: 
 
-On this repo, I have use terraform on aws provider to deploy ec2 instances, dynamoDB, lambda function, load balancers, s3 bucket and vpc services. I have deployed each of the services separately with various project folder and also all together under the multiple folder. I have deployed these aws services with terraform both from my MacOs and also Ubuntu VM. 
+On this repo, I have used terraform on aws provider to deploy ec2 instances, dynamoDB, lambda function, load balancers, s3 bucket and vpc services. I have deployed each of the services separately with various project folder and also all together under the multiple folder. I have deployed these aws services with terraform both from my MacOs and also Ubuntu VM. 
 
 1. Add a user with access key checked inside IAM service with AdministrativeAccess checked. Save Download.csv file which contains your access and secret key for use in AWS CLI and Terraform CLI.
 2. Installing Terraform on MacOs: https://learn.hashicorp.com/tutorials/terraform/install-cli
