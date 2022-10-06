@@ -2,6 +2,10 @@
 
 GitHub Terraform Notes
 
+Installing Terraform on MacOs: https://learn.hashicorp.com/tutorials/terraform/install-cli
+Installing AWS CLI Tool: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+Configure AWS:
+
 Lab 1 – Install and Configure Terraform with AWS Provider:
 
 - Add a user with access key checked inside IAM service with AdministrativeAccess checked. Save Download.csv file which contains your access and secret key for use in AWS CLI and Terraform CLI (Creating  a Terraform IAM user with admin privileges)
