@@ -36,6 +36,8 @@ Install and Configure Terraform with AWS Provider on Ubuntu 22.04.1 LTS VM:
 14. sudo snap install code —classic (install visual studio code)
 15. code (launch visual studio code)
 
-
+Terraform on Ubuntu 22.04.1 LTS VM
 ![Screen Shot 2022-10-06 at 4 44 58 PM](https://user-images.githubusercontent.com/68933712/194416051-11f5d18c-5b73-4603-8f4b-3f5b95885c94.png)
 
+Terraform Deployment Video on MacOs:
+https://drive.google.com/file/d/1inXSrdmULS8tbrMPdt5whc5io13XWLU7/view?usp=sharing
